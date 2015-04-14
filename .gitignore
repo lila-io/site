@@ -1,0 +1,10 @@
+dist
+.tmp
+.sass-cache
+.idea
+*.DS_Store
+.elasticbeanstalk
+node_modules
+coverage
+npm-debug.log
+projectFilesBackup
