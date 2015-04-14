@@ -1,0 +1,3 @@
+# lila.io
+
+Static site
