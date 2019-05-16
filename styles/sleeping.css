@@ -1,0 +1,82 @@
+.sleeping {
+  width: 25%;
+  min-width: 250px;
+  max-width: 500px;
+  margin: 25px auto;
+}
+
+.sleeping svg {
+  fill: #886ba4;
+}
+
+.face {
+  animation: float 2s ease alternate infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.letter {
+  opacity: 0;
+  animation: fade 6s ease infinite;
+  transform-origin: center;
+}
+
+.letter.z1 {
+  animation-delay: 0.5s;
+}
+
+.letter.z2 {
+  animation-delay: 2s;
+}
+
+.letter.z3 {
+  animation-delay: 3.5s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.air {
+  opacity: 0;
+  animation: puff 4s ease infinite;
+}
+
+@keyframes puff {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

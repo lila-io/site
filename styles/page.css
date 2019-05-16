@@ -1,0 +1,23 @@
+html, body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #100c22;
+  color: #b1c1e0;
+}
+
+.sleeping {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer a {
+  color: #b1c1e0;
+}
